@@ -66,11 +66,9 @@ const chooseColor = () => {
            <div className="w-full flex  flex-col items-end justify-between ">
            <ul className="w-1/2  pt-10">
              <li className="pb-3 underline">Omnicity</li>
+             {}
              <ul>
              <li className="pl-3 flex gap-3 items-center">Logo aléatoire 1.0 <p className="text-lg font-bold ">→</p></li>
-             <li className="pl-3">Logo aléatoire 1.1 </li>
-             <li className="pl-3">Logo aléatoire 1.2 </li>
-             <li className="pl-3">Logo aléatoire 2.0 </li>
              </ul>
            </ul>
            {/* <ul className=" pt-10">
