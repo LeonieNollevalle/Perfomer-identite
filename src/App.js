@@ -20,7 +20,7 @@ console.log(tableau)
   return (
     <div className="global-container">
     <div className="App">
-      <svg className={"num-"+`${tableau[0]}`} width="74" height="74" stroke-width="2" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className={`num-${tableau[0]}`} width="74" height="74" stroke-width="2" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_102_6)">
         <path d="M73 1H1V73H73V1Z" stroke="re" stroke-width="2" stroke-miterlimit="10"/>
         <path d="M37 19V55" stroke="red" stroke-width="2" stroke-miterlimit="10"/>
