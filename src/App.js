@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react';
 import './App.css';
 import { db } from "./firebase-config";
 // import { uid } from "uid";
-import { set, ref, onValue} from "@firebase/database";
+import { ref, onValue} from "@firebase/database";
 import Letter from './Letter';
 
 
