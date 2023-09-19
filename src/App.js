@@ -14,12 +14,14 @@ let tableLength = words.length;
   words.splice(wordIndex, 1);
 }
 
+const bg = ["","https://images.unsplash.com/photo-1581783458534-001a466b5487?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3115&q=80","https://images.unsplash.com/photo-1604782206219-3b9576575203?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3097&q=80","https://images.unsplash.com/photo-1511974212900-b42a18e19eb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2848&q=80","https://images.unsplash.com/photo-1532579821608-3f220ab206e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1987&q=80" ]
 
+let num = Math.round(Math.random() * (bg.length - 1) + 1);
 console.log(tableau)
 
   return (
     <div className="global-container">
-    <div className="App">
+    <div className="App" style={{backgroundImage:`url(${bg[num]})`}}>
       <svg className={`num-${tableau[0]}`} width="74" height="74" stroke-width="1" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_102_6)">
         <path d="M73 1H1V73H73V1Z" stroke="re" stroke-width="1" stroke-miterlimit="10"/>
