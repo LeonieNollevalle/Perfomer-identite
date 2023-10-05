@@ -64,7 +64,7 @@ const chooseColor = () => {
          <div className="w-1/2 h-full">
           <div className="w-full h-1/2">
             <h1 className="text-xl">Performer l'identité</h1>
-            <p className="text-sm pt-5 flex flex-col"> Explication du projet A lighthearted mixture of generalities, carefully distilled. A delightful collection of the slightly scattered and mostly sweet.  Why bury? How are myself?  To catch a glimpse of intimacy, to stay, just a minute longer. There are no simple answers, or? <p className="text-lg font-bold text-end ">↓</p></p>
+            <p className="text-sm pt-5 flex flex-col"> Dans le cadre d’une recherche universitaire autour du rapport entre l’identité visuelle et de la programmation comme moyen de se défaire de ses biais créatifs, ce site a été conçu comme terrain de recherche et d’expérimentation. Il se veut évolutif aussi bien dans son contenue qui comprend des expérimentations (de logotypes, d’iconographies et de typographiques) produite régulièrement que dans sa forme. C’est-à-dire que l’identité visuelle même du site (police de caractère, colorimétrie ou iconographie) se veut évolutive, aléatoire et que cette identité se nourrisse du travail de recherche en continu. De plus, la proposition finale de cet objet pourrait constituer une donnée, une matière a interprété dans le but de créer un autre objet : la version éditoriale de la recherche.<p className="text-lg font-bold text-end ">↓</p></p>
           </div>
          
            <div className="w-full flex  flex-col items-end justify-between">
