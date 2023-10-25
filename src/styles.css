@@ -11,8 +11,6 @@
   font-weight: 400;
   text-transform: uppercase;
   font-size: 10px;
-  width: auto;
-  height: auto;
   border: 4px red  solid;
   color: red;
   font-size: 40px;
@@ -25,9 +23,6 @@
 
 .O {
   background: url('./O.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
   border: 4px solid red;
   grid-column: 1;
   grid-row: 1;
@@ -35,9 +30,6 @@
 
 .M {
   background: url('./M.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
   border: 4px solid red;
   grid-column: 2;
   grid-row: 1;
@@ -45,9 +37,7 @@
 
 .N {
   background: url('./N.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
+
   border: 4px solid red;
   grid-column:  3;
   grid-row: 1;
@@ -55,9 +45,6 @@
 
 .I {
   background: url('./I.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
   border: 4px solid red;
   grid-column:  1;
   grid-row: 2;
@@ -65,9 +52,6 @@
 
 .C {
   background: url('./C.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
   border: 4px solid red;
   grid-column:  2;
   grid-row: 2;
@@ -75,9 +59,6 @@
 
 .I2 {
   background: url('./I2.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
   border: 4px solid red;
   grid-column:  3;
   grid-row: 2;
@@ -85,9 +66,6 @@
 
 .T {
   background: url('./T.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
   border: 4px solid red;
   grid-column:  1;
   grid-row: 3;
@@ -95,9 +73,6 @@
 
 .Y {
   background: url('./Y.svg');
-  width: auto;
-  height: auto;
-  background-size: 33vw 33vh;
   border: 4px solid red;
   grid-column:  2;
   grid-row: 3;

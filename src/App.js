@@ -3,15 +3,15 @@ export default function App() {
 
   return (
     <div className="global-container">
-    <article className="O"/>  
-    <div className="M"/>
-    <div className="N"/>
-    <div className="I"/>
-    <div className="C"/>
-    <div className="I2"/>
-    <div className="T"/>
-    <div className="Y"/>
-    <div className="omnicity">Omnicity</div>
+    <article className="O" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>  
+    <div className="M" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
+    <div className="N" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
+    <div className="I" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
+    <div className="C" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
+    <div className="I2" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
+    <div className="T" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
+    <div className="Y" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
+    <div className="omnicity" style={{ width:'auto', height:'auto'}}>Omnicity</div>
     </div>
   );
 }
