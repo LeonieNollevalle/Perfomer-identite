@@ -1,79 +1,15 @@
 .global-container{
   width: 100vw;
   height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3,1fr);
-}
-
-
-.omnicity {
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 10px;
-  border: 4px red  solid;
-  color: red;
-  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column:  3;
-  grid-row: 3;
+  overflow: hidden;
+ 
 }
 
-.O {
-  background: url('./O.svg');
-  border: 4px solid red;
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.M {
-  background: url('./M.svg');
-  border: 4px solid red;
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.N {
-  background: url('./N.svg');
-
-  border: 4px solid red;
-  grid-column:  3;
-  grid-row: 1;
-}
-
-.I {
-  background: url('./I.svg');
-  border: 4px solid red;
-  grid-column:  1;
-  grid-row: 2;
-}
-
-.C {
-  background: url('./C.svg');
-  border: 4px solid red;
-  grid-column:  2;
-  grid-row: 2;
-}
-
-.I2 {
-  background: url('./I2.svg');
-  border: 4px solid red;
-  grid-column:  3;
-  grid-row: 2;
-}
-
-.T {
-  background: url('./T.svg');
-  border: 4px solid red;
-  grid-column:  1;
-  grid-row: 3;
-}
-
-.Y {
-  background: url('./Y.svg');
-  border: 4px solid red;
-  grid-column:  2;
-  grid-row: 3;
+.model {
+  position: absolute;
+  top:-30%;
+  right: 8%;
 }

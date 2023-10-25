@@ -3,15 +3,7 @@ export default function App() {
 
   return (
     <div className="global-container">
-    <article className="O" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>  
-    <div className="M" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
-    <div className="N" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
-    <div className="I" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
-    <div className="C" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
-    <div className="I2" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
-    <div className="T" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
-    <div className="Y" style={{ width:'auto', height:'auto', backgroundSize:'33vw 33vh'}}/>
-    <div className="omnicity" style={{ width:'auto', height:'auto'}}>Omnicity</div>
-    </div>
+      <iframe className="model" src='https://my.spline.design/untitled-62cbd1b47948680a5ad5e717d850ec76/' title='lala' frameborder='0' width='100%' height='100%'></iframe>
+      <iframe  title="lala" src="https://indd.adobe.com/embed/352667b4-5014-4007-86c3-dad4e5a89f62?startpage=1&allowFullscreen=false" width="101%" height="101%" frameborder="0" allowfullscreen=""></iframe></div>
   );
 }
